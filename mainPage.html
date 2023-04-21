@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainPage.css">
+    <title>Shop</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="head-page">
+            <a href="mainPage.html"> <img src="shopping-cart.png" id="shopping-cart"> </a>
+            <h1 class="header-title">
+                <span>Dillons</span>
+                <span>Haber-dashery</span>
+            </h1>
+            <img src="suit.png" id="suit">
+        </div>
+        <div class="cart">
+            <div>
+                <h2>Shopping-cart:</h2>
+            </div>
+            <div>
+                <p>Items: <span id="itemCount">0</span></p>
+            </div>
+            <div>
+                <p>Total price: $<span id="totalPrice">0</span></p>
+            </div>
+            <div>
+                <button type="button">Checkout</button>
+            </div>
+        </div>
+        <div class="items">
+            <div>
+                <p>Neck Tie</p>
+                <img src="https://i.etsystatic.com/12526779/r/il/6f712a/1629014104/il_794xN.1629014104_7qfr.jpg"
+                    class="products">
+            </div>
+            <div>
+                <p>Price</p>
+                <p class="price">$19.99</p>
+            </div>
+            <div>
+                <p>Quantity</p>
+                <button type="button" onclick="addToCart(19.99)" id="add-tie">
+                    Add </button><button type="button" onclick="removeFromCart(19.99)">Remove</button>
+            </div>
+        </div>
+        <div class="items">
+            <div>
+                <p>Undershirt</p>
+                <img src="https://img.ltwebstatic.com/images3_pi/2022/03/21/164785138330ce413b577106f77813e7b87489d507_thumbnail_600x.webp"
+                    class="products">
+            </div>
+            <div>
+                <p>Price</p>
+                <p class="price">$24.99</p>
+            </div>
+            <div>
+                <p>Quantity</p>
+                <button type="button" onclick="addToCart(24.99)" id="add-tie">
+                    Add </button><button type="button" onclick="removeFromCart(24.99)">Remove</button>
+            </div>
+        </div>
+        <div class="items">
+            <div>
+                <p>Coat/Slacks</p>
+                <img src="https://cdn.shopify.com/s/files/1/0692/4255/products/Grey1_8cc60ba4-0a87-4489-b8ff-1aa31b4f6f53_700x.jpg?v=1664370571"
+                    class="products">
+            </div>
+            <div>
+                <p>Price</p>
+                <p class="price">$99.99</p>
+            </div>
+            <div>
+                <p>Quantity</p>
+                <button type="button" onclick="addToCart(99.99)" id="add-tie">
+                    Add </button><button type="button" onclick="removeFromCart(99.99)">Remove</button>
+            </div>
+        </div>
+        <div class="items">
+            <div>
+                <p>Dress Shoes</p>
+                <img src="https://cdn.shopify.com/s/files/1/0175/8496/products/color_tan_1_yates_oxford_800x800.jpg?v=1618342124"
+                    class="products">
+            </div>
+            <div>
+                <p>Price</p>
+                <p class="price">$24.99</p>
+            </div>
+            <div>
+                <p>Quantity</p>
+                <button type="button" onclick="addToCart(24.99)" id="add-tie">
+                    Add</button><button type="button" onclick="removeFromCart(24.99)">Remove</button>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    <script src="store.js" async></script>
+</body>
+
+</html>

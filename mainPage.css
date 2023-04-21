@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-image: url(https://wallpapercave.com/wp/wp2090574.jpg);
+    background-size: cover;
+}
+
+.main-container {
+    background-color: slategrey;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    align-content: start;
+    min-height: 100%;
+}
+
+.header-title span:first-child {
+    color: #FFCCCC;
+}
+
+.header-title span:nth-child(2) {
+    color: #EFE3D0;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    display: flex;
+    font-size: 48px;
+    padding-left: 6px;
+    text-decoration: wavy pink 4px;
+    text-underline-offset: 0.3em;
+    text-decoration-line: underline;
+    margin: 14px;
+    align-items: start;
+    flex-direction: column;
+}
+
+.head-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item .quantity-column button:first-child {
+    margin-bottom: 32px;
+}
+
+.head-page {
+    display: flex;
+    border-bottom: #efe3d0 solid;
+    justify-content: space-between;
+    background-color: slategray;
+    padding-right: 12px;
+}
+
+.price {
+    text-decoration: underline pink;
+    color: #efe3d0;
+    font-size: 36px;
+    text-underline-offset: 0.1em;
+    margin-bottom: 54px;
+}
+
+/* button edits */
+
+button {
+    display: flex;
+    color: brown;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+/* emblem edits */
+
+.products {
+    height: 96px;
+    border-radius: 24px;
+}
+
+#shopping-cart {
+    height: 48px;
+    width: auto;
+    margin: 8px;
+}
+
+#suit {
+    height: 78px;
+}
